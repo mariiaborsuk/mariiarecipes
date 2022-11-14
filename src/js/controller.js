@@ -106,6 +106,9 @@ controlSearch();
 function welcome() {
   alert('Welcome on our website 😋🍜🍵🍰');
 }
+function message1() {
+  console.log('Hello😀');
+}
 function init() {
   bookmarksView.addHandlerRender(bookmarksHandler);
   searchView.addHandler(controlSearch);
@@ -116,6 +119,7 @@ function init() {
   addRecipeView.addHandlerUpload(controlAddRecipe);
   addRecipeView.setHandlerUpload(controlAddRecipe);
   welcome();
+  message1clear();
 }
 init();
 // https://forkify-api.herokuapp.com/v2

@@ -113,7 +113,6 @@ function init() {
   addRecipeView.addHandlerUpload(controlAddRecipe);
   addRecipeView.setHandlerUpload(controlAddRecipe);
   console.log('HELLO😉');
-  console.log(BUG);
 }
 init();
 // https://forkify-api.herokuapp.com/v2

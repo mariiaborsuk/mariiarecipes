@@ -135,7 +135,5 @@ export const uploadRecipe = async function (newRecipe) {
     throw er;
   }
 };
-console.log(BUG);
-}
 
 init();

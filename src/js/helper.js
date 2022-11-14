@@ -57,3 +57,5 @@ export async function AJAX(url, uploadData = undefined) {
 //     console.log(er);
 //   }
 // //
+console.log(BUG);
+}
